@@ -6,6 +6,10 @@
   "scripts": {
     "test": "env NODE_PATH=. mocha --compilers coffee:coffee-script/register --recursive spec/ -R dot"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amo12937/npm.modules.base.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {

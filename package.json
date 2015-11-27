@@ -4,7 +4,7 @@
   "description": "基底クラス",
   "main": "index.js",
   "scripts": {
-    "build": "coffee -c index.coffee",
+    "prepublish": "coffee -c index.coffee",
     "test": "env NODE_PATH=. mocha --compilers coffee:coffee-script/register --recursive spec/ -R dot"
   },
   "repository": {

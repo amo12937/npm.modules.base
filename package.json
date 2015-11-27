@@ -1,9 +1,10 @@
 {
   "name": "amo.modules.base",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "基底クラス",
-  "main": "index.coffee",
+  "main": "index.js",
   "scripts": {
+    "build": "coffee -c index.coffee",
     "test": "env NODE_PATH=. mocha --compilers coffee:coffee-script/register --recursive spec/ -R dot"
   },
   "repository": {
